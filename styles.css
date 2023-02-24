@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.backgroundPattern{
+    position: relative;
+}
+
+.HoldElements{
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 1rem;
+}
+
+h2{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    color: white;
+}
+
+form{
+    width: 80%;
+}
+.inputAndArrowHolder{
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.input{
+    height: 40px;
+    border-radius: 13px 0 0 13px;
+    width: 85%;
+}
+.arrowHolder{
+    background-color: black;
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 13px 13px 0px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 60%;
+    border-radius: 15px;
+}
+
+.information p{
+   font-weight: 400;
+   color: hsl(0, 0%, 59%);
+   font-size: 10px;
+   padding: 0;
+   margin: 5px;
+}
+
+.informationTypes{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationTypes h6{
+    color: hsl(0, 0%, 17%);
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    height: 230px;
+    margin-top: 0rem;
+}
