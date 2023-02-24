@@ -308,7 +308,7 @@ function getIpAddress() {
     console.log(countryName);
   
 
-    fetch("http://api.positionstack.com/v1/forward?access_key=b87643b95dc4dc3a5856d17fff7dee9e&query="+countryName)
+    fetch("https://api.positionstack.com/v1/forward?access_key=b87643b95dc4dc3a5856d17fff7dee9e&query="+countryName)
     .then(response => response.json())
     .then(data => {
     console.log(data.data[0].latitude);
@@ -349,7 +349,7 @@ function retrieveInfo(){
     console.log(countryName);
   
 
-    fetch("http://api.positionstack.com/v1/forward?access_key=b87643b95dc4dc3a5856d17fff7dee9e&query="+countryName)
+    fetch("https://api.positionstack.com/v1/forward?access_key=b87643b95dc4dc3a5856d17fff7dee9e&query="+countryName)
     .then(response => response.json())
     .then(data => {
     console.log(data.data[0].latitude);
